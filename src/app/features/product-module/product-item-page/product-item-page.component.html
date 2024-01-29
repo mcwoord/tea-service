@@ -1,0 +1,13 @@
+<div class="card text-center mt-4 mb-4">
+    <div class="card-header">
+        <h3>{{product.title}}</h3>
+    </div>
+    <div>
+        <img class="product-image" [src]="product.image" alt="">
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">{{product.price}} рублей</h5>
+        <p class="card-text">{{product.description}}</p>
+        <a [routerLink]="['/order', productId + 1]" class="btn btn-primary">Купить</a>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="card mx-auto p-0" style="width: 26rem;">
+    <a [routerLink]="['/catalog', productItem.id]" class="magnific-image ">
+        <img [src]="productItem.image" class="card-img-top" alt="tea package">
+    </a>
+    <div class="card-body">
+        <h5 class="card-title">{{productItem.title}}</h5>
+        <p class="card-text">Великолепный чай внесет в вашу жизнь яркие краски и вкус расслабления</p>
+        <a [routerLink]="['/catalog', productItem.id]" class="btn btn-primary">Подробнее</a>
+    </div>
+</div>
