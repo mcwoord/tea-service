@@ -20,6 +20,7 @@ import { RouterModule } from '@angular/router';
     ModalComponent,
     FooterComponent,
     HeaderComponent
-  ]
+  ], 
+  bootstrap: [FooterComponent]
 })
 export class SharedModule { }

@@ -2,7 +2,6 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ShowModalService } from 'src/app/shared/services/show-modal.service';
 import { Observable, Subscription } from 'rxjs';
 import { GoToCatalogEnum } from 'src/app/enums/got-to-catalog.enum';
-import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @Component({

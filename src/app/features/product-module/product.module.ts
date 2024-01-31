@@ -13,7 +13,7 @@ import { CatalogComponent } from './catalog/catalog.component';
     CommonModule,
     RouterModule,
   ],
-  bootstrap: [ProductComponent],
+  bootstrap: [CatalogComponent, ProductComponent, ProductItemPageComponent],
   exports: [ProductComponent]
 })
 export class ProductModule { }

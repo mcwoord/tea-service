@@ -4,7 +4,6 @@ import { MainComponent } from './main/main.component';
 import { Page404Component } from './page404/page404.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { RouterModule } from '@angular/router';
-import { NgbdAccordion } from './main/accordion/accordion.component';
 
 
 
@@ -17,7 +16,7 @@ import { NgbdAccordion } from './main/accordion/accordion.component';
     CommonModule,
     SharedModule,
     RouterModule,
-    NgbdAccordion,
-  ]
+  ],
+  bootstrap: [MainComponent]
 })
 export class MainModule { }

@@ -21,7 +21,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FeaturesModule,
     NgbModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
