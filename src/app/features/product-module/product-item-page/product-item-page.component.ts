@@ -46,7 +46,7 @@ export class ProductItemPageComponent implements OnInit, OnDestroy {
             this.product = data[this.productId];
             let product = data.find(item => item.id === this.productId + 1);
             if (!product) {
-              this.router.navigate(['/not-found']);
+              this.router.navigate(['/tea-service/not-found']);
             }
           },
           error: error => {
