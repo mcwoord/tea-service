@@ -12,7 +12,6 @@ import { MainModule } from './main-module/main.module';
 
 @NgModule({
   declarations: [
-
   ],
   imports: [
     CommonModule,
