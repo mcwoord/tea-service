@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Subscription } from 'rxjs';
+import { Subscription, catchError } from 'rxjs';
 import { CatalogService } from 'src/app/shared/services/catalog.service';
 import { ProductType } from 'src/app/types/product.type';
 
