@@ -49,7 +49,7 @@ export class OrderComponent implements OnInit, OnDestroy {
         if (prd) {
           this.product = prd;
         } else {
-          this.router.navigate(['/tea-service/not-found']);
+          this.router.navigate(['/not-found']);
         }
       });
 
